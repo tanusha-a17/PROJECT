@@ -1,0 +1,109 @@
+body {
+  font-family:"Jost",sans-serif;  /* Using a nice, modern font */
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; 
+  background-image: linear-gradient(rgb(170, 196, 201),rgb(161, 213, 224));
+}
+
+header {
+  background-image:radial-gradient(rgb(0, 0, 255),rgb(103, 103, 177)); /* Blue header background */
+  color: #ffffff;  /* White text */
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  font-style: normal;
+  border:#ff1c64;
+}
+.right-button {
+  text-align: right;
+  padding-top: 0;
+  font-size: 17px;
+  font-style: normal;
+  background-color: #1d9aed; 
+  color: #fff;
+  float:right;
+  border-color: black;
+  padding: 11px;
+  cursor: pointer;
+  border-radius: 70px;
+}
+
+.right-button:hover {
+  
+  background-color: #000000;
+  
+}
+main {
+  padding: 10px 0;
+}
+
+footer {
+  background-color: #3498db;  /* Matching header color */
+  color: #fff;  /* White text */
+  padding: 10px 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-size:large;
+  background-color: purple;
+  background-image: linear-gradient(rgb(0, 0, 255),rgb(103, 103, 177));
+}
+
+/* Container Styles */
+.container {
+  max-width: 900px;
+  padding: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  margin: 0 auto;  
+  /* Centering content horizontally */
+}
+
+.container1 {
+  margin-bottom: 30px;
+  padding: 50px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(51, 34, 34, 0.1);
+  background-image: linear-gradient(rgb(182, 204, 208),rgb(161, 213, 224)); /* Subtle shadow */
+}
+
+/* Header Styles */
+h1 {
+  font-size: 2em;  /* Larger font size for the header */
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;  /* Slightly more space between lines */
+  margin-bottom: 15px;
+}
+
+/* Button Styles */
+.buttons {
+  display: flex;
+  justify-content: center; 
+  letter-spacing: 2px; /* Centering buttons horizontally */
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #1d9aed;  /* Blue button color */
+  color: #fff;
+  text-decoration: none;
+  font-weight:lighter;
+  border:darkblue;
+  border-radius: 99px;
+  margin-right: 10px;
+  cursor: pointer;  
+  transition: all 0.3s ease;  
+}
+
+.button:hover {
+  background-color: #2980b9;  
+}
+
